@@ -70,7 +70,7 @@ footer {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
-  height: 250px;
+  height: 200px;
 }
 
 .weather-app-city {
@@ -131,6 +131,51 @@ footer {
   position: relative;
   bottom: 8px;
   left: -8px;
+}
+
+.weekly-forecast {
+  background: #fff0eb;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+.weekly-forecast:hover {
+  transform: scale(1.5);
+  border: 2px solid #005f8c;
+  transition: all 700ms ease-in-out;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  color: #18dd95;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.weather-forecast-temperature-one {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.weather-forecast-temperature-two {
+  margin: 0 10px;
 }
 
 .coder {
