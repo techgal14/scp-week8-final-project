@@ -16,7 +16,7 @@ footer {
   border-top: 1px solid #dee7ec;
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
-  padding: 20px 0 0 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ footer {
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   margin: 45px auto;
-  width: 725px;
+  width: 740px;
   padding: 30px;
 }
 
@@ -144,7 +144,7 @@ footer {
 .weather-forecast-week-day {
   background: #faefec;
   border-radius: 6px;
-  padding: 30px;
+  padding: 20px;
   margin: 0 2px;
 }
 .weather-forecast-week-day:hover {
